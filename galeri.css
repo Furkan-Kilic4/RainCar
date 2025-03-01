@@ -1,0 +1,467 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s ease;
+}
+
+/* Base html codes */
+
+
+.bilgiler .btn{
+    margin-top:120px;
+    display: inline-block;
+    padding: 16px 23px;
+    border-radius: 30rem;
+    font-size: 1rem;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+#fi{
+   font-size: 23px;
+   margin-left: 550px; 
+}
+
+#lisans{
+    font-size: 15px;
+    margin-top: 100px;
+    margin-left: 450px;
+   
+}
+
+section {
+    padding:50px 3%;
+}
+
+
+
+.btn:hover{
+    opacity: 0.7;
+}
+
+
+
+/* header start */
+
+
+
+.background-video1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 115%;
+    object-fit: cover; 
+    
+}
+
+.background-video2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    
+}
+
+.header{
+    position: relative;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+.home{
+    min-height: 110vh;
+    background: url(bmwS.jpg)
+    no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -49.4rem;
+    display: flex;
+    align-items: center;
+}
+
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 1.3rem;
+    color: white;
+    border-bottom: 2px solid transparent;
+    margin-right: 150px;
+    margin-bottom: 640px;
+    
+}
+
+.header .navbar .logo{
+    color: white;
+    margin-right: 500px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    
+    
+}
+
+.header .navbar .logo img{
+width:200x;
+height: 120px;
+    
+    
+}
+
+.header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 7%;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.header .navbar .active,
+.header .navbar a:hover{
+    border-color: var(--main-color);
+    padding-bottom: 0.5rem;
+}
+
+.header .buttons button {
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    background-color: transparent;
+    color: white;
+    
+}
+
+#menu-btn{
+    display: none;
+    }
+
+
+.audi{
+    margin-top: 70px;
+}
+
+.bilgiler{
+    background-color: black;
+    color: white;
+    height: 85vh;
+    
+}
+
+.bilgiler .box-head{
+    font-size: 0.7rem;
+    
+}
+
+.bilgiler .boxB{
+    margin-left: 100px;
+    margin-top: 150px;
+    font-size: 1.2rem;
+    width: 230px;
+   
+}
+
+.bilgiler .boxC{
+    margin-left: 550px;
+    margin-top:-143px;
+    font-size: 1.2rem;
+}
+
+.bilgiler .boxD{
+    margin-left: 1100px;
+    margin-top:-104px;
+    font-size: 1.2rem;
+}
+
+.bilgiler span{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.modeller .baslik{
+    color: black;
+    margin-left: 44%;
+    margin-bottom: 50px;
+    
+}
+
+.modeller .baslik img{
+   width: 150px;
+   
+   
+  
+}
+
+.modeller .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(14rem, 1fr));
+    
+}
+
+
+.modeller .box-container .box img{
+    width:100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+}
+
+.modeller .box-container .box h3{
+    font-size: 1.2rem;
+    margin-left: 20%;
+    margin-top: 5px;
+   
+    
+}
+
+.modeller .box-container .box h4 {
+    font-size: 1.2rem;
+    padding-left: 18%;
+    margin-top: 5px;
+}
+
+.modeller .box-container .box h5 {
+    font-size: 1.2rem;
+    padding-left: 30%;
+    margin-top: 5px;
+}
+
+.modeller .box-container .box h6 {
+    font-size: 1.2rem;
+    padding: 0 6rem;
+    margin-left: 4%;
+   
+}
+
+.modeller .box-container .box:hover img{
+    transform: scale(1.07);
+   
+}
+
+#mLogo{
+    width: 220px;
+    margin-right: 50px;
+}
+
+.modeller .box .box-head .araclar{
+    width: 250px;
+}
+
+
+.home .bmw-desc{
+    margin-left: 75px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.home .bmw-desc span{
+    margin-left: 5px;
+    font-size: 25px;
+    font-weight:lighter;
+    color: white;
+    
+}
+
+.buttonsBmw{
+    margin-top: 10px;
+    display:flex;
+    column-gap: 20px;
+}
+
+.buttonsBmw button{
+    padding: 10px 25px;
+    border-radius: 2px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    font-size: 25px ;
+    font-weight: bold;
+    color: white;
+    width: 200px;
+    margin-left: 75px;
+    
+    
+}
+
+.buttonsBmw .btn1{
+    background-color: #1c69d4;
+    margin-top: 55px;
+}
+
+.buttonsBmw .btn2{
+    background-color: transparent;
+    box-shadow: inset 0 0 0 1px white;
+}
+
+.bilgilerBmw{
+    background-color: white;
+    color: black;
+    height: 85vh;
+    
+}
+
+.bilgilerBmw .box-head{
+    font-size: 60px;
+    
+}
+
+.bilgilerBmw .boxB{
+    margin-left: 100px;
+    margin-top: 150px;
+    font-size: 1.2rem;
+    width: 230px;
+   
+}
+
+.bilgilerBmw .boxC{
+    margin-left: 550px;
+    margin-top:-143px;
+    font-size: 1.2rem;
+}
+
+.bilgilerBmw .boxD{
+    margin-left: 1100px;
+    margin-top:-104px;
+    font-size: 1.2rem;
+}
+
+.bilgilerBmw span{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.tasarımBmw .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem, 1fr));
+    gap: 70px;
+    
+}
+
+
+.tasarımBmw .box-container .box img{
+    width:100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+}
+
+.tasarımBmw .box-container .box h3{
+    font-size: 1.2rem;
+    
+    margin-top: 5px;
+   
+    
+}
+
+.tasarımBmw .box-container .box h4 {
+    font-size: 1.2rem;
+    
+    margin-top: 5px;
+}
+
+
+.tasarımBmw .box-container .box:hover img{
+    transform: scale(1.07);
+   
+}
+
+.modeller .box .box-head .araclar{
+    width: 250px;
+}
+
+.iletisim .box-container{
+    margin-top: 250px;
+    transform: translate(0%,-170%);
+}
+
+.iletisim .box form .inputBox{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+    border: black;
+}
+
+.iletisim .box form .inputBox input{
+    width: 50%;
+    background-color: black;
+    padding: 2rem;
+    font-size: 1rem;
+    color: #ffffff;
+    text-transform: none;
+    border-radius: 30rem;
+    margin-left: 820px;
+   
+}
+
+.iletisim .hakkimizda{
+    font-size: 25px;
+}
+
+.iletisim .icerik{
+    width: 650px;
+}
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1.3rem 3rem;
+    border-radius: 30rem;
+    font-size: 1.5rem;
+    color: #ffffff;
+    background-color: black;
+    cursor: pointer;
+    margin-left: 64rem;
+}
+
+@media (max-width: 991px) {
+
+    .header {
+     padding: 1.5rem 2rem;
+    }
+ 
+    .header .logo img{
+     height: 5rem;
+    }
+ 
+    section {
+     padding: 2rem;
+    }
+ }
+ 
+ @media (max-width: 590px) {
+     #menu-btn{
+         display: inline-block;
+         margin-bottom:550px;
+     }
+     .header .navbar a{
+         display: none;
+     }
+
+     #iletisim-b{
+        display: none;
+    }
+     .header .navbar .dropdown{
+        display: none;
+    }
+     
+ }
+ 
